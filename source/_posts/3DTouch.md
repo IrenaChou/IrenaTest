@@ -233,7 +233,10 @@ pop
 
 **force**
 ---
-[下载Demo](http://pan.baidu.com/s/1hsnmYPm)
+[github 下载Demo](https://github.com/IrenaChou/3DTouchDemo.git)  
+*github上下载下来的代码在真机跑会有identifier的问题，您最好将identifier修改identifier将‘-’去掉*
+[百度云 下载Demo](https://pan.baidu.com/s/1hsnmYPm)
+
 按压力度，值范围［0-6.666667］
 代码主要在demo中的IrenaForce.h/.m类
 **代码如下**
