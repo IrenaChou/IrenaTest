@@ -1,6 +1,6 @@
 title: Swift基础1
 date: 2016-08-23 17:44:47
-tags:
+tags: Swift
 ---
 
 **Swift中取余运算符可用于浮点型**
