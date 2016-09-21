@@ -31,5 +31,6 @@ tags:
 
 2.代码如下
 ```
+self.edgesForExtendedLayout = UIRectEdgeNone;
 self.automaticallyAdjustsScrollViewInsets = YES ; // 其中的self是控制器
 ```
