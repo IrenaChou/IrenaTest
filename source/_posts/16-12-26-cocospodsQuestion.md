@@ -4,13 +4,16 @@ tags:
 ---
 
 
+问题1：
+---
 
-1. `[!] Unable to add a source with url https://github.com/CocoaPods/Specs.git named master-1.``You can try adding it manually in ~/.cocoapods/repos or via pod repo add.`
-   - ![问题1](http://7xrirn.com1.z0.glb.clouddn.com/blogImagecocoapods-Q1.png)
-   - 问题解决：**您电脑上的Xcode大于一个，需自己手动选择一个使用版本**，具体做法如下
-   - ![问题1](http://7xrirn.com1.z0.glb.clouddn.com/blogImagecocoapods-A1.png)
-   - sudo xcode-select -switch **/Applications/Xcode7.3.app**【拖拽你要使用的xcode替换/Applications/Xcode7.3.app】
+`[!] Unable to add a source with url https://github.com/CocoaPods/Specs.git named master-1.``You can try adding it manually in ~/.cocoapods/repos or via pod repo add.`
 
+![问题1](http://7xrirn.com1.z0.glb.clouddn.com/blogImagecocoapods-Q1.png)
+
+- 问题解决：**您电脑上的Xcode大于一个，需自己手动选择一个使用版本**，具体做法如下
+- ![问题1](http://7xrirn.com1.z0.glb.clouddn.com/blogImagecocoapods-A1.png)
+- sudo xcode-select -switch **/Applications/Xcode7.3.app**【拖拽你要使用的xcode替换/Applications/Xcode7.3.app】
 
 1. `ERROR:Could not find a valid gem 'cocoapods' (>= 0), here is why:`
 
@@ -21,10 +24,27 @@ tags:
      - 删除源：`gem sources --remove https://ruby.taobao.org/`
      - 添加源：`gem sources -a https://gems.ruby-china.org/`
 
-2. `Generating Pods project Abort trap: 6`
 
-   - ![问题1](http://7xrirn.com1.z0.glb.clouddn.com/blogImagecocoapods-Q2.png)
-   - 问题解决：**安装最新发布版本**，具体做法如下
+
+<!-- more -->
+
+
+问题2
+---
+ `Generating Pods project Abort trap: 6`
+
+![问题1](http://7xrirn.com1.z0.glb.clouddn.com/blogImagecocoapods-Q2.png)
+
+- 问题解决：**安装最新发布版本**，具体做法如下
    - `sudo gem install cocoapods --pre`
 
-   ​
+
+
+问题3：
+---
+
+![问题1](http://7xrirn.com1.z0.glb.clouddn.com/blogImagecocoapods-Q3.png)
+
+* 问题解决：复制红框处的代码，运行
+  * 先选择一个存放位置，这里用桌面做一下：`cd destkop`
+  * 运行红框处的代码：`git clone https://github.com/CoderMJLee/MJRefresh.git`
