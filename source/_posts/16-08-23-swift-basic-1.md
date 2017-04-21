@@ -1,6 +1,6 @@
 title: Swift基础1
 date: 2016-08-23 17:44:47
-tags: Swift
+tags: 'Swift'
 ---
 
 **Swift中取余运算符可用于浮点型**
@@ -22,7 +22,7 @@ tags: Swift
   ```
   private var test : Int?
   ```
-  
+
   **二：有初使值**
   ```
   internal var test : Int = 5

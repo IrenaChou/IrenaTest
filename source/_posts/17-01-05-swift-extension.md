@@ -1,6 +1,6 @@
 title: Swift-extension【扩展】
 date: 2017-01-05 15:43:53
-tags: Swift
+tags: 'Swift'
 ---
 
 
@@ -134,7 +134,7 @@ extension Int {
 class IRTestController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        printIntegerKinds([3, 19, -27, 0, -6, 0, 7])   // return  + + - 0 - 0 + 
+        printIntegerKinds([3, 19, -27, 0, -6, 0, 7])   // return  + + - 0 - 0 +
     }
     func printIntegerKinds(_ numbers: [Int]) {
         for number in numbers {
@@ -166,4 +166,3 @@ extension Int {
     }
 }
 ```
-

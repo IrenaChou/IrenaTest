@@ -1,6 +1,6 @@
 title: Swift基本语法2
 date: 2016-08-25 15:38:08
-tags: Swift
+tags: 'Swift'
 ---
 **Swift中如果使用十进制表示指数，需使用e/E表示幂e2表示10^2**
 
@@ -105,7 +105,7 @@ switch中的case默认不支持贯通，只有case中添加**fallthrough**的才
 ```
  private func testFunc()->CGPathRef{
     //函数体，函数的具体实现
-    return xx.CGPath 
+    return xx.CGPath
  }
  private :  函数的作用域
  func    :  函数的修饰符
@@ -135,5 +135,3 @@ var result : (Int,Int)->Int
       return a + b
   }
 ```
-
-
