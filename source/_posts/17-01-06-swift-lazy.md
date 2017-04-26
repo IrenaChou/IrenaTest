@@ -6,9 +6,10 @@ tags: 'Swift'
 
 Swift-lazy懒加载
 ---
-```// 懒加载属性
-    private lazy var testView : UIView = {
-    	let tView = UIView()
-    	return tView
-    }()
+
+```
+  private lazy var testView : UIView = {
+  	let tView = UIView()
+  	return tView
+  }()
 ```
