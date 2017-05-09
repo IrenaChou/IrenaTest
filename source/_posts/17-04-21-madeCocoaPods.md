@@ -8,7 +8,7 @@ tags:
 ```
 pod 'IRMakeCocoapodsLibaryTest'
 ```
-[这是IRMakeCocoapodsLibaryTest在github上的代码](IRMakeCocoapodsLibaryTest)
+[这是IRMakeCocoapodsLibaryTest在github上的代码](https://github.com/IrenaChou/IRMakeCocoapodsLibaryTest)
 
 言归正传，开始创建仓库
 ---
