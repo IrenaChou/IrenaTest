@@ -113,6 +113,32 @@ pod search IRMakeCocoapodsLibaryTest
 ![使用](http://7xrirn.com1.z0.glb.clouddn.com/CocoaPods_7.png)
 
 
+search不到库或是search不到最新版本解决
+---
+*下面是我个人遇到的问题，和解决方法*
+**当上面所有的步骤都走的很顺利，没有报错/报错顺利的解决完了，却发现search不到新库**
+
+[参考自github上的回答](https://github.com/CocoaPods/CocoaPods/issues/4865)
+
+在 **terminal** 下运行如下命令
+```
+//删除cocoapods的索引
+rm ~/Library/Caches/CocoaPods/search_index.json
+
+//然后重新search
+pod search IRMakeCocoapodsLibaryTest
+```
+
+**版本更新成功，却seach不到新版本**
+
+在 **terminal** 下运行如下命令
+```
+pod repo update --verbose
+pod search IRMakeCocoapodsLibaryTest
+```
+
+
+
 更新版本
 ---
 添加新功能或是修改bug的时候，必然要更新版本的，下面说说版本更新
