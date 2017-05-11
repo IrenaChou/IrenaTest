@@ -1,6 +1,6 @@
 title: macOS配制SublimeText3运行JavaScript
 date: 2016-12-27 13:44:03
-tags:
+tags: 'JavaScript'
 ---
 
 
@@ -23,10 +23,15 @@ https://download.sublimetext.com/Sublime%20Text%20Build%203126.dmg
 ```
 2、下载安装nodejs
 ```
-
 ------
 
-https://nodejs.org/dist/v6.9.2/node-v6.9.2.pkg 
+**如果已经存在**
+可以在终端运行如下命令查看node的位置
+```
+where node
+```
+
+https://nodejs.org/dist/v6.9.2/node-v6.9.2.pkg
 
 安装nodejs时需要注意如下图中红框标的路径【**先将其复制保存，如果地址跟我文中的地址相同，可以不用复制，下面直接拷贝我写好的就行**】，下面会用到
 ![安装nodejs时需要注意](http://7xrirn.com1.z0.glb.clouddn.com/blogImagenodejs.png)
@@ -98,6 +103,3 @@ import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d
 相关插件请参考如下链接
 
 https://packagecontrol.io/browse
-
-
-
