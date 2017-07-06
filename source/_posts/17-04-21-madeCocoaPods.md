@@ -46,6 +46,15 @@ pod spec create IRMakeCocoapodsLibaryTest<根据你的项目名更改>
 这是我的本地仓库目录
 ![本地仓库目录](http://7xrirn.com1.z0.glb.clouddn.com/CocoaPods_5.png)
 
+文件按文件夹区分开管理
+----
+由于最近另一个公开库的文件较多，所以设置了子文件夹，下面是我另一个公开库的.podspec文件【 **大家如果不要看可以直接点击左侧目录跳过** 】
+
+[下图中的.podspec文件下载](https://github.com/IrenaChou/podspec.Appraisals)
+
+![本地仓库目录](http://7xrirn.com1.z0.glb.clouddn.com/CocoaPods_51.png)
+
+
 pod验证及代码提交
 ---
 ```
