@@ -26,7 +26,8 @@ Print: Entry, ":CFBundleIdentifier", Does Not Exist
 **解决步骤**：
 1.  首先删除node_modules  
 2.  修改package.json中react-native的版本为0.44.3 react为16.0.0-alpha.6
-3.  react-native run-ios 就可以了
+3.  执行npm install
+4.  react-native run-ios 就可以了
 
 问题参考链接：
 http://www.jianshu.com/p/98c8f2a970eb
