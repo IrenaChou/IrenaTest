@@ -3,15 +3,14 @@ date: 2016-09-20 16:43:26
 tags:
 ---
 
-@property有两个对应的词，一个是 @synthesize，一个是 @dynamic。如果@synthesize和@dynamic都没写，那么默认的就是@syntheszie var = *_var*;
+@property
+---
+**@property=ivar+getter+setter**
+当我们属性定义完成后,编译器会自动生成该属性的getter和setter方法,并且还会自动向类中添加有下划线的实例变量,即 *_实例变量*
 
 @synthesize
 ---
-
-* @synthesize语法来指定实例变量的名字，@synthesize 声明的属性=实例变量【一般以下划线开头后面跟属性名，eg: *@synthesize 属性名 = _属性名*】
-* @synthesize表示如果属性没有手动实现setter和getter方法，那么编译器会自动加上这两个方法。
-* 如果@synthesize和 @dynamic都没写，那么默认的就是 *@syntheszie var = _var*;
-
+的作用就是如果你没有手动实现getter与setter方法,那么编译器就会自动为你加上这两个方法
 
 @dynamic
 ---
